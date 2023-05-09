@@ -1,0 +1,35 @@
+.event-list-item {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .event-list-item {
+    width: 45%;
+  }
+}
+
+.event-item-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.event-image {
+  width: 100%;
+}
+
+.event-item-title {
+  font-size: 22px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.event-item-place {
+  font-size: 16px;
+  text-align: left;
+}
